@@ -28,27 +28,27 @@ export default function Home() {
 
         </div>
         <div className="flex justify-around items-center p-5">
-      <div>
+      <div className='flex flex-col justify-center text-center'>
         <img src={hotel} alt="" />
         <h4>Hotel</h4>
       </div>  
-      <div><img src={Attractions} alt="" />
-      <h4>Hotel</h4></div>
+      <div className='flex flex-col justify-center text-center'><img src={Attractions} alt="" />
+      <h4>Attractions</h4></div>
         
-      <div><img src={Eats} alt="" />
-      <h4>Hotel</h4></div>
-
-        
-      <div>        <img src={Commute} alt="" />
-      <h4>Hotel</h4></div>
-
-
-      <div><img src={Taxi} alt="" />
-      <h4>Hotel</h4></div>
+      <div className='flex flex-col justify-center text-center'><img src={Eats} alt="" />
+      <h4>Eats</h4></div>
 
         
-      <div><img src={Movies} alt="" />
-      <h4>Hotel</h4></div>
+      <div className='flex flex-col justify-center text-center'>        <img src={Commute} alt="" />
+      <h4>Commute</h4></div>
+
+
+      <div className='flex flex-col justify-center text-center'><img src={Taxi} alt="" />
+      <h4>Taxi</h4></div>
+
+        
+      <div className='flex flex-col justify-center text-center'><img src={Movies} alt="" />
+      <h4>Movies</h4></div>
 
         
     </div>
