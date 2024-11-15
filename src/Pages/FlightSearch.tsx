@@ -44,8 +44,8 @@ const FlightSearch: React.FC = () => {
 
                 {/* Departure, Arrival, and Date Fields */}
                 <div className="flex flex-wrap justify-between mb-4">
-                    <div className="flex flex-col w-[30%]">
-                        <label className="text-gray-600 mb-1">Departure</label>
+                    <div className="relative flex flex-col w-[30%]">
+                        <label className="absolute text-xs text-black-100 left-3 top-0 transform -translate-y-1/2 bg-white px-1">Departure</label>
                         <input
                             type="text"
                             value={departure}
@@ -53,8 +53,8 @@ const FlightSearch: React.FC = () => {
                             className="p-2 border rounded-lg w-full"
                         />
                     </div>
-                    <div className="flex flex-col w-[30%]">
-                        <label className="text-gray-600 mb-1">Arrival</label>
+                    <div className="relative flex flex-col w-[30%]">
+                        <label className="mb-1 absolute text-xs text-black-100 left-3 top-0 transform -translate-y-1/2 bg-white px-1">Arrival</label>
                         <input
                             type="text"
                             value={arrival}
@@ -62,8 +62,8 @@ const FlightSearch: React.FC = () => {
                             className="p-2 border rounded-lg w-full"
                         />
                     </div>
-                    <div className="flex flex-col w-[30%]">
-                        <label className="text-gray-600 mb-1">Date</label>
+                    <div className="relative flex flex-col w-[30%]">
+                        <label className="mb-1 absolute text-xs text-black-100 left-3 top-0 transform -translate-y-1/2 bg-white px-1">Date</label>
                         <input
                             type="date"
                             value={date}
