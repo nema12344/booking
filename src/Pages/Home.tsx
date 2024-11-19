@@ -30,36 +30,27 @@ export default function Home() {
             </div>
             <Search/>
             <div className='p-6'>
-    <div>
-        <h2 className="text-neutral-500 text-sm font-semibold">Prepare for your trip</h2>
-    </div>
-    <div className="flex justify-between gap-4 overflow-x-auto pb-4 flex-wrap">
-        <div className='flex flex-col justify-center items-center text-center w-1/2 sm:w-1/4'>
-            <img src={hotel} alt="Hotel" className='w-full h-auto' />
-            <h4 className="text-xs sm:text-sm">Hotel</h4>
-        </div>
-        <div className='flex flex-col justify-center items-center text-center w-1/2 sm:w-1/4'>
-            <img src={Attractions} alt="Attractions" className='w-full h-auto' />
-            <h4 className="text-xs sm:text-sm">Attractions</h4>
-        </div>
-        <div className='flex flex-col justify-center items-center text-center w-1/2 sm:w-1/4'>
-            <img src={Eats} alt="Eats" className='w-full h-auto' />
-            <h4 className="text-xs sm:text-sm">Eats</h4>
-        </div>
-        <div className='flex flex-col justify-center items-center text-center w-1/2 sm:w-1/4'>
-            <img src={Commute} alt="Commute" className='w-full h-auto' />
-            <h4 className="text-xs sm:text-sm">Commute</h4>
-        </div>
-        <div className='flex flex-col justify-center items-center text-center w-1/2 sm:w-1/4'>
-            <img src={Taxi} alt="Taxi" className='w-full h-auto' />
-            <h4 className="text-xs sm:text-sm">Taxi</h4>
-        </div>
-        <div className='flex flex-col justify-center items-center text-center w-1/2 sm:w-1/4'>
-            <img src={Movies} alt="Movies" className='w-full h-auto' />
-            <h4 className="text-xs sm:text-sm">Movies</h4>
-        </div>
-    </div>
-</div>
+                <div>
+                    <h2 className="text-neutral-500 text-sm font-semibold">Prepare for your trip</h2>
+
+                </div>
+                <div className="flex justify-between gap-4 overflow-x-auto pb-4">
+                    <div className='flex flex-col justify-center text-center'>
+                        <img src={hotel} alt="" />
+                        <h4>Hotel</h4>
+                    </div>
+                    <div className='flex flex-col justify-center text-center'><img src={Attractions} alt=""  />
+                        <h4>Attractions</h4></div>
+                    <div className='flex flex-col justify-center text-center'><img src={Eats} alt="" />
+                        <h4>Eats</h4></div>
+                    <div className='flex flex-col justify-center text-center'>        <img src={Commute} alt="" />
+                        <h4>Commute</h4></div>
+                    <div className='flex flex-col justify-center text-center'><img src={Taxi} alt=""/>
+                        <h4>Taxi</h4></div>
+                    <div className='flex flex-col justify-center text-center'><img src={Movies} alt="" />
+                        <h4>Movies</h4></div>
+                </div>
+            </div>
         </div>
     );
 

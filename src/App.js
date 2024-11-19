@@ -1,5 +1,6 @@
 // import './App.css';
 import Topnav from './componets/Topnav.tsx';
+import Footer from './Pages/Footer.tsx';
 import Holidays from './Pages/Holidays.tsx';
 import Home from './Pages/Home.tsx';
 import PopularDestinations from './Pages/PopularDestinations.tsx';
@@ -15,6 +16,7 @@ function App() {
      <Holidays/>
      <PopularStays/>
     <Subscribe/>
+    <Footer/>
     </div>
   );
 }
