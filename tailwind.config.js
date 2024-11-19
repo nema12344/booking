@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}", // Add paths to your component files
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customBlue: '#1262AE', // Add your color here
+      },
+    },
   },
   plugins: [],
 }
