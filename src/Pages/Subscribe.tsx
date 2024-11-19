@@ -10,8 +10,8 @@ export default function From() {
         <h3>Get weekly updates</h3>
         <div>
           <p>Fill in your details to join the party!</p>
-          <input type="text" placeholder='Your Name' />
-          <input type="text" placeholder='Email address' />
+          <input type="text" placeholder='Your Name' className='border' />
+          <input type="text" placeholder='Email address' className='border' />
           
         </div>
       </div>

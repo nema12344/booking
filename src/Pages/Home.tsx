@@ -36,18 +36,18 @@ export default function Home() {
                 </div>
                 <div className="flex justify-between gap-4 overflow-x-auto pb-4">
                     <div className='flex flex-col justify-center text-center'>
-                        <img src={hotel} alt="" />
+                        <img src={hotel} alt="" className='w-100' />
                         <h4>Hotel</h4>
                     </div>
-                    <div className='flex flex-col justify-center text-center'><img src={Attractions} alt="" />
+                    <div className='flex flex-col justify-center text-center'><img src={Attractions} alt=""  className='w-100' />
                         <h4>Attractions</h4></div>
-                    <div className='flex flex-col justify-center text-center'><img src={Eats} alt="" />
+                    <div className='flex flex-col justify-center text-center'><img src={Eats} alt=""  className='w-100'/>
                         <h4>Eats</h4></div>
-                    <div className='flex flex-col justify-center text-center'>        <img src={Commute} alt="" />
+                    <div className='flex flex-col justify-center text-center'>        <img src={Commute} alt="" className='w-100' />
                         <h4>Commute</h4></div>
-                    <div className='flex flex-col justify-center text-center'><img src={Taxi} alt="" />
+                    <div className='flex flex-col justify-center text-center'><img src={Taxi} alt="" className='w-100' />
                         <h4>Taxi</h4></div>
-                    <div className='flex flex-col justify-center text-center'><img src={Movies} alt="" />
+                    <div className='flex flex-col justify-center text-center'><img src={Movies} alt="" className='w-100' />
                         <h4>Movies</h4></div>
                 </div>
             </div>
