@@ -31,13 +31,17 @@ const PopularDestinations: React.FC = () => {
           View all destinations →
         </a>
       </div>
-      <div className="flex justify-between gap-4 overflow-x-auto pb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {destinations.map((destination, index) => (
           <div
             key={index}
-            className="relative w-48 h-32 flex-shrink-0 rounded-lg overflow-hidden bg-cover bg-center"
-            style={{ backgroundImage: `url(${destination.image})` }}
+            className="relative bg-white shadow-md rounded-lg overflow-hidden transform transition duration-300 hover:scale-105 hover:shadow-lg"
           >
+            <img
+              src={destination.image}
+              alt={destination.name}
+              className="w-full h-40 object-cover"
+            />
             <div className="absolute top-0 bg-black bg-opacity-50 text-white p-2 w-full flex justify-between items-center">
               <span className="font-semibold text-lg">{destination.name}</span>
               <span className="font-bold text-lg">FROM {destination.price}</span>
